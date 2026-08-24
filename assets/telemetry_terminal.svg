@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="100%" height="200">
+  <style>
+    @keyframes bar1 { 0% { width: 0px; } 100% { width: 240px; } }
+    @keyframes bar2 { 0% { width: 0px; } 100% { width: 168px; } }
+    @keyframes bar3 { 0% { width: 0px; } 100% { width: 218px; } }
+    @keyframes bar4 { 0% { width: 0px; } 100% { width: 240px; } }
+    @keyframes bar5 { 0% { width: 0px; } 100% { width: 28px; } }
+
+    .term-bg { fill: #0d1117; stroke: #30363d; stroke-width: 1px; rx: 6px; }
+    .term-header { fill: #161b22; }
+    .term-border { stroke: #30363d; stroke-width: 1px; }
+    .term-dot { fill: #484f58; }
+    .term-title { font-family: 'SF Mono', 'Fira Code', 'Courier New', monospace; font-size: 11px; fill: #8b949e; }
+    
+    .term-label { font-family: 'SF Mono', 'Fira Code', 'Courier New', monospace; font-size: 12px; fill: #8b949e; }
+    .term-val { font-family: 'SF Mono', 'Fira Code', 'Courier New', monospace; font-size: 12px; font-weight: bold; fill: #c9d1d9; }
+    
+    .bar-bg { fill: #21262d; rx: 3px; }
+    .bar-fill-cyan { fill: #58a6ff; rx: 3px; animation: bar1 2s ease-out forwards; }
+    .bar-fill-blue { fill: #79c0ff; rx: 3px; animation: bar2 2s ease-out forwards; }
+    .bar-fill-green { fill: #3fb950; rx: 3px; animation: bar3 2s ease-out forwards; }
+    .bar-fill-purple { fill: #bc8cff; rx: 3px; animation: bar4 2s ease-out forwards; }
+    .bar-fill-amber { fill: #d29922; rx: 3px; animation: bar5 2s ease-out forwards; }
+  </style>
+
+  <rect width="100%" height="100%" class="term-bg" />
+  <path d="M 0,6 Q 0,0 6,0 L 794,0 Q 800,0 800,6 L 800,28 L 0,28 Z" class="term-header" />
+  <line x1="0" y1="28" x2="800" y2="28" class="term-border" />
+  
+  <circle cx="18" cy="14" r="4" class="term-dot" />
+  <circle cx="32" cy="14" r="4" class="term-dot" />
+  <circle cx="46" cy="14" r="4" class="term-dot" />
+  <text x="400" y="18" text-anchor="middle" class="term-title">saksham@arch-box: ~ (telemetry monitor)</text>
+
+  <g transform="translate(24, 46)">
+    <!-- Row 1 -->
+    <text x="0" y="14" class="term-label">BACKEND INTEGRITY</text>
+    <rect x="230" y="4" width="240" height="12" class="bar-bg" />
+    <rect x="230" y="4" width="240" height="12" class="bar-fill-cyan" />
+    <text x="490" y="14" class="term-val">100% [OPTIMAL]</text>
+
+    <!-- Row 2 -->
+    <text x="0" y="38" class="term-label">DEBUGGING TOLERANCE</text>
+    <rect x="230" y="28" width="240" height="12" class="bar-bg" />
+    <rect x="230" y="28" width="168" height="12" class="bar-fill-blue" />
+    <text x="490" y="38" class="term-val">70% [STEADY]</text>
+
+    <!-- Row 3 -->
+    <text x="0" y="62" class="term-label">CAFFEINE CONCENTRATION</text>
+    <rect x="230" y="52" width="240" height="12" class="bar-bg" />
+    <rect x="230" y="52" width="218" height="12" class="bar-fill-green" />
+    <text x="490" y="62" class="term-val">91% [HIGH]</text>
+
+    <!-- Row 4 -->
+    <text x="0" y="86" class="term-label">HOURS IN TERMINAL</text>
+    <rect x="230" y="76" width="240" height="12" class="bar-bg" />
+    <rect x="230" y="76" width="240" height="12" class="bar-fill-purple" />
+    <text x="490" y="86" class="term-val">9999+ [BOUNDLESS]</text>
+
+    <!-- Row 5 -->
+    <text x="0" y="110" class="term-label">SLEEP QUOTA MET</text>
+    <rect x="230" y="100" width="240" height="12" class="bar-bg" />
+    <rect x="230" y="100" width="28" height="12" class="bar-fill-amber" />
+    <text x="490" y="110" class="term-val">12% [WARNING]</text>
+  </g>
+</svg>

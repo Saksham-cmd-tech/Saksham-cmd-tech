@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 190" width="100%" height="190">
+  <style>
+    @keyframes pulseActive { 0%, 100% { fill: #58a6ff; opacity: 1; } 50% { fill: #1f6feb; opacity: 0.4; } }
+    @keyframes pulseBusy { 0%, 100% { fill: #d29922; opacity: 1; } 50% { fill: #9e6a03; opacity: 0.3; } }
+    @keyframes pulseSpin { 0%, 100% { fill: #3fb950; opacity: 1; } 50% { fill: #238636; opacity: 0.4; } }
+
+    .term-bg { fill: #0d1117; stroke: #30363d; stroke-width: 1px; rx: 6px; }
+    .term-header { fill: #161b22; }
+    .term-border { stroke: #30363d; stroke-width: 1px; }
+    .term-dot { fill: #484f58; }
+    .term-title { font-family: 'SF Mono', 'Fira Code', 'Courier New', monospace; font-size: 11px; fill: #8b949e; }
+    
+    .term-text { font-family: 'SF Mono', 'Fira Code', 'Courier New', monospace; font-size: 12px; fill: #c9d1d9; }
+    .thread-tag { fill: #79c0ff; font-weight: bold; }
+    .status-ok { fill: #3fb950; font-size: 11px; }
+    .status-run { fill: #58a6ff; font-size: 11px; }
+    .status-wait { fill: #d29922; font-size: 11px; }
+
+    .p-run { animation: pulseActive 2s infinite; }
+    .p-spin { animation: pulseSpin 1.5s infinite; }
+    .p-wait { animation: pulseBusy 2.5s infinite; }
+  </style>
+
+  <rect width="100%" height="100%" class="term-bg" />
+  <path d="M 0,6 Q 0,0 6,0 L 794,0 Q 800,0 800,6 L 800,28 L 0,28 Z" class="term-header" />
+  <line x1="0" y1="28" x2="800" y2="28" class="term-border" />
+  
+  <circle cx="18" cy="14" r="4" class="term-dot" />
+  <circle cx="32" cy="14" r="4" class="term-dot" />
+  <circle cx="46" cy="14" r="4" class="term-dot" />
+  <text x="400" y="18" text-anchor="middle" class="term-title">saksham@arch-box: ~ (htop: worker-pool)</text>
+
+  <g transform="translate(24, 52)">
+    <circle cx="4" cy="-4" r="3" class="p-run" />
+    <text x="16" y="0" class="term-text"><tspan class="thread-tag">[THREAD-01]</tspan> building terminal TUIs because web GUIs consume too much RAM</text>
+    
+    <circle cx="4" cy="18" r="3" class="p-spin" />
+    <text x="16" y="22" class="term-text"><tspan class="thread-tag">[THREAD-02]</tspan> fine-tuning vector similarity thresholds on legal documents</text>
+    
+    <circle cx="4" cy="40" r="3" class="p-run" />
+    <text x="16" y="44" class="term-text"><tspan class="thread-tag">[THREAD-03]</tspan> tweaking Voronoi relaxation iterations on procedural terrain meshes</text>
+    
+    <circle cx="4" cy="62" r="3" class="p-spin" />
+    <text x="16" y="66" class="term-text"><tspan class="thread-tag">[THREAD-04]</tspan> listening to dark synthwave while waiting for C++ compiler output</text>
+    
+    <circle cx="4" cy="84" r="3" class="p-wait" />
+    <text x="16" y="88" class="term-text"><tspan class="thread-tag">[THREAD-05]</tspan> wondering why code that passed yesterday throws SIGSEGV today</text>
+  </g>
+</svg>

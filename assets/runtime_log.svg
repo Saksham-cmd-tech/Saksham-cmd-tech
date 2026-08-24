@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 245" width="100%" height="245">
+  <style>
+    @keyframes r0 { 0%, 5% { opacity: 0; transform: translateY(3px); } 8%, 95% { opacity: 1; transform: translateY(0); } 100% { opacity: 0; } }
+    @keyframes r1 { 0%, 15% { opacity: 0; transform: translateY(3px); } 18%, 95% { opacity: 1; transform: translateY(0); } 100% { opacity: 0; } }
+    @keyframes r2 { 0%, 27% { opacity: 0; transform: translateY(3px); } 30%, 95% { opacity: 1; transform: translateY(0); } 100% { opacity: 0; } }
+    @keyframes r3 { 0%, 39% { opacity: 0; transform: translateY(3px); } 42%, 95% { opacity: 1; transform: translateY(0); } 100% { opacity: 0; } }
+    @keyframes r4 { 0%, 51% { opacity: 0; transform: translateY(3px); } 54%, 95% { opacity: 1; transform: translateY(0); } 100% { opacity: 0; } }
+    @keyframes r5 { 0%, 63% { opacity: 0; transform: translateY(3px); } 66%, 95% { opacity: 1; transform: translateY(0); } 100% { opacity: 0; } }
+    @keyframes r6 { 0%, 75% { opacity: 0; transform: translateY(3px); } 78%, 95% { opacity: 1; transform: translateY(0); } 100% { opacity: 0; } }
+    @keyframes r7 { 0%, 87% { opacity: 0; transform: translateY(3px); } 90%, 95% { opacity: 1; transform: translateY(0); } 100% { opacity: 0; } }
+
+    .term-bg { fill: #0d1117; stroke: #30363d; stroke-width: 1px; rx: 6px; }
+    .term-header { fill: #161b22; }
+    .term-border { stroke: #30363d; stroke-width: 1px; }
+    .term-dot { fill: #484f58; }
+    .term-title { font-family: 'SF Mono', 'Fira Code', 'Courier New', monospace; font-size: 11px; fill: #8b949e; }
+    
+    .term-text { font-family: 'SF Mono', 'Fira Code', 'Courier New', monospace; font-size: 12px; fill: #c9d1d9; }
+    .time-tag { fill: #79c0ff; font-weight: bold; }
+    .code-tag { fill: #7ee787; }
+    .warn-tag { fill: #ffa657; }
+    
+    .r0 { animation: r0 14s infinite; }
+    .r1 { animation: r1 14s infinite; }
+    .r2 { animation: r2 14s infinite; }
+    .r3 { animation: r3 14s infinite; }
+    .r4 { animation: r4 14s infinite; }
+    .r5 { animation: r5 14s infinite; }
+    .r6 { animation: r6 14s infinite; }
+    .r7 { animation: r7 14s infinite; }
+  </style>
+
+  <rect width="100%" height="100%" class="term-bg" />
+  <path d="M 0,6 Q 0,0 6,0 L 794,0 Q 800,0 800,6 L 800,28 L 0,28 Z" class="term-header" />
+  <line x1="0" y1="28" x2="800" y2="28" class="term-border" />
+  
+  <circle cx="18" cy="14" r="4" class="term-dot" />
+  <circle cx="32" cy="14" r="4" class="term-dot" />
+  <circle cx="46" cy="14" r="4" class="term-dot" />
+  <text x="400" y="18" text-anchor="middle" class="term-title">saksham@arch-box: ~ (journalctl -u brain.service -f)</text>
+
+  <g transform="translate(24, 52)">
+    <g class="r0">
+      <text x="0" y="0" class="term-text"><tspan class="time-tag">23:45 ::</tspan> "Just gonna fix this one minor helper function and head to bed."</text>
+    </g>
+    <g class="r1">
+      <text x="0" y="20" class="term-text"><tspan class="time-tag">00:18 ::</tspan> Refactored the entire data access layer into generic interfaces.</text>
+    </g>
+    <g class="r2">
+      <text x="0" y="40" class="term-text"><tspan class="time-tag">01:04 ::</tspan> <tspan class="warn-tag">34 compiler errors.</tspan> None of them make semantic sense.</text>
+    </g>
+    <g class="r3">
+      <text x="0" y="60" class="term-text"><tspan class="time-tag">02:11 ::</tspan> Discovered missing closing parenthesis on line 14.</text>
+    </g>
+    <g class="r4">
+      <text x="0" y="80" class="term-text"><tspan class="time-tag">02:12 ::</tspan> <tspan class="code-tag">Everything compiles cleanly. 0 warnings.</tspan></text>
+    </g>
+    <g class="r5">
+      <text x="0" y="100" class="term-text"><tspan class="time-tag">02:13 ::</tspan> "You know what would make this 10x better? A custom CLI tool."</text>
+    </g>
+    <g class="r6">
+      <text x="0" y="120" class="term-text"><tspan class="time-tag">03:40 ::</tspan> Deep in an academic paper on Voronoi Duals and Delaunay Graphs.</text>
+    </g>
+    <g class="r7">
+      <text x="0" y="140" class="term-text"><tspan class="time-tag">04:15 ::</tspan> <tspan class="code-tag">git commit -m "it works do not touch this" &amp;&amp; git push</tspan></text>
+    </g>
+  </g>
+</svg>

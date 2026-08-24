@@ -1,14 +1,8 @@
-```
-┌────────────────────────────────────────────────────────────────────────────┐
-│ SAKSHAM TALE                                                               │
-│ backend · ai/ml · terminal tools · procedural 3d                           │
-│                                                                            │
-│ status   :: building things that probably didn't need to exist             │
-│ location :: 18.5204° N, 73.8567° E [pune, in]                              │
-│ shell    :: zsh (dark mode mandatory; light themes violate protocol)       │
-│ uptime   :: 20+ years (occasional kernel panic at 03:00)                   │
-└────────────────────────────────────────────────────────────────────────────┘
-```
+<div align="center">
+  <img src="assets/header_terminal.svg" width="100%" alt="Saksham Tale // Main Terminal" />
+</div>
+
+<br>
 
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&duration=2500&pause=1000&color=E6EDF3&background=00000000&center=true&vCenter=true&width=680&height=35&lines=%24+saksham+--status+%23+subsystems%3A+backend%2C+ai%2C+tui%2C+3d+%5BOK%5D;%24+cfmate+get+1829A+%23+fetching+competitive+testcases...;%24+python+-m+legaleye+--query+%22semantic+precedent%22;%24+.\%2Fhcts+--voronoi+--simulate-terrain+%23+synthesizing+island;%24+cat+%2Fdev%2Furandom+%7C+grep+%22caffeine%22+%23+saturation+91%25" alt="Terminal Command Animation" />
@@ -31,13 +25,9 @@
 
 ### 01 // CURRENT THREADS
 
-```
-[THREAD-01] building terminal TUIs because web GUIs consume too much RAM
-[THREAD-02] fine-tuning vector similarity thresholds on legal documents
-[THREAD-03] tweaking Voronoi relaxation iterations on procedural terrain meshes
-[THREAD-04] listening to dark synthwave while waiting for C++ compiler output
-[THREAD-05] wondering why code that passed yesterday throws SIGSEGV today
-```
+<div align="center">
+  <img src="assets/threads_monitor.svg" width="100%" alt="Current Running Threads" />
+</div>
 
 <br>
 
@@ -143,19 +133,8 @@ idea
 ### 05 // RUNTIME LOG :: 02:00 AM THREAD
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=13&duration=2800&pause=1100&color=8B949E&background=00000000&center=true&vCenter=true&width=650&height=30&lines=02%3A04+AM+%3A%3A+%22just+one+quick+bugfix+before+sleep%22;02%3A45+AM+%3A%3A+refactored+entire+system+into+generic+traits;03%3A12+AM+%3A%3A+reading+whitepapers+on+computational+geometry;04%3A15+AM+%3A%3A+git+commit+-m+%22it+works+do+not+touch%22" alt="Runtime Log Typing" />
+  <img src="assets/runtime_log.svg" width="100%" alt="Runtime Log Execution" />
 </div>
-
-```
-23:45 :: "Just gonna fix this one minor helper function and head to bed."
-00:18 :: Refactored the entire data access layer into generic interfaces.
-01:04 :: 34 compiler errors. None of them make semantic sense.
-02:11 :: Discovered missing closing parenthesis on line 14.
-02:12 :: Everything compiles cleanly. 0 warnings.
-02:13 :: "You know what would make this 10x better? A custom CLI tool."
-03:40 :: Deep in an academic paper on Voronoi Duals and Delaunay Graphs.
-04:15 :: git commit -m "it works do not touch this" && git push
-```
 
 <br>
 
@@ -217,15 +196,11 @@ Blender and computational geometry scripts:
 
 ---
 
-### 09 // SYSTEM STATUS
+### 09 // SYSTEM TELEMETRY
 
-```
-BACKEND INTEGRITY      [████████████████████] 100%
-DEBUGGING TOLERANCE    [██████████████░░░░░░] 70%
-CAFFEINE CONCENTRATION [██████████████████░░] 91%
-HOURS IN TERMINAL      [████████████████████] 9999+
-SLEEP QUOTA MET        [██░░░░░░░░░░░░░░░░░░] 12%
-```
+<div align="center">
+  <img src="assets/telemetry_terminal.svg" width="100%" alt="System Telemetry Gauges" />
+</div>
 
 <br>
 

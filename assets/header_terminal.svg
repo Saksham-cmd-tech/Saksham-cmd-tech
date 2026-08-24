@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 170" width="100%" height="170">
+  <style>
+    @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    @keyframes subtleGlow { 0%, 100% { fill: #e6edf3; } 50% { fill: #79c0ff; } }
+    .term-bg { fill: #0d1117; stroke: #30363d; stroke-width: 1px; rx: 6px; }
+    .term-header { fill: #161b22; }
+    .term-border { stroke: #30363d; stroke-width: 1px; }
+    .term-dot { fill: #484f58; }
+    .term-title { font-family: 'SF Mono', 'Fira Code', 'Courier New', monospace; font-size: 11px; fill: #8b949e; }
+    
+    .name-title { font-family: 'SF Mono', 'Fira Code', 'Courier New', monospace; font-size: 16px; font-weight: 700; fill: #ffffff; letter-spacing: 1.5px; animation: subtleGlow 6s infinite; }
+    .sub-title { font-family: 'SF Mono', 'Fira Code', 'Courier New', monospace; font-size: 12px; fill: #79c0ff; }
+    .term-row { font-family: 'SF Mono', 'Fira Code', 'Courier New', monospace; font-size: 12px; fill: #c9d1d9; }
+    .term-label { fill: #8b949e; }
+    .cursor { animation: blink 0.8s infinite; fill: #58a6ff; }
+  </style>
+
+  <rect width="100%" height="100%" class="term-bg" />
+  <path d="M 0,6 Q 0,0 6,0 L 794,0 Q 800,0 800,6 L 800,28 L 0,28 Z" class="term-header" />
+  <line x1="0" y1="28" x2="800" y2="28" class="term-border" />
+  
+  <circle cx="18" cy="14" r="4" class="term-dot" />
+  <circle cx="32" cy="14" r="4" class="term-dot" />
+  <circle cx="46" cy="14" r="4" class="term-dot" />
+  <text x="400" y="18" text-anchor="middle" class="term-title">saksham@arch-main: ~ (session: tty1)</text>
+
+  <g transform="translate(24, 52)">
+    <text x="0" y="0" class="name-title">SAKSHAM TALE</text>
+    <text x="0" y="18" class="sub-title">backend · ai/ml · terminal tools · procedural 3d</text>
+    
+    <text x="0" y="44" class="term-row"><tspan class="term-label">status   ::</tspan> building things that probably didn't need to exist</text>
+    <text x="0" y="62" class="term-row"><tspan class="term-label">location ::</tspan> 18.5204° N, 73.8567° E [pune, in]</text>
+    <text x="0" y="80" class="term-row"><tspan class="term-label">uptime   ::</tspan> 20+ years (occasional kernel panic at 03:00) <tspan class="cursor">_</tspan></text>
+  </g>
+</svg>
