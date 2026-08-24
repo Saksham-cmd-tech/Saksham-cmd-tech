@@ -10,6 +10,12 @@
 └────────────────────────────────────────────────────────────────────────────┘
 ```
 
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&duration=2500&pause=1000&color=E6EDF3&background=00000000&center=true&vCenter=true&width=680&height=35&lines=%24+saksham+--status+%23+subsystems%3A+backend%2C+ai%2C+tui%2C+3d+%5BOK%5D;%24+cfmate+get+1829A+%23+fetching+competitive+testcases...;%24+python+-m+legaleye+--query+%22semantic+precedent%22;%24+.\%2Fhcts+--voronoi+--simulate-terrain+%23+synthesizing+island;%24+cat+%2Fdev%2Furandom+%7C+grep+%22caffeine%22+%23+saturation+91%25" alt="Terminal Command Animation" />
+</div>
+
+<br>
+
 > I build backend architectures, terminal developer tools, semantic AI experiments, and procedural 3D worlds.
 > **Engineering doctrine:** If a manual workflow takes 30 seconds, I will happily spend 14 hours automating it in Python or C++.
 
@@ -17,6 +23,10 @@
 
 <details>
 <summary><b>[ CLICK TO RUN DIAGNOSTICS ]</b> <code>$ ./saksham --diagnostics --verbose</code></summary>
+
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=13&duration=2200&pause=900&color=8B949E&background=00000000&center=true&vCenter=true&width=580&height=30&lines=%3E+executing+diagnostic+routines...;%3E+checking+vector+index+integrity...;%3E+compiling+procedural+geometry...;%3E+all+threads+operational." alt="Diagnostic Status Animation" />
+</div>
 
 ```
 [init] scanning system memory...
@@ -82,6 +92,11 @@ idea
 
 **02 / [CFMATE](https://github.com/Saksham-cmd-tech/cf_tool)** · [PyPI Package](https://pypi.org/project/cfmate/)  
 > *A Codeforces CLI because opening a browser during a contest felt like an unacceptable latency penalty.*
+
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=13&duration=2500&pause=1000&color=E6EDF3&background=00000000&center=true&vCenter=true&width=620&height=30&lines=%24+pip+install+cfmate;%24+cf+get+2227A+%23+fetching+problem+statement;%24+cf+run+solution.cpp+%23+running+sample+tests+%5BPASS%5D" alt="CFMate Command Demo" />
+</div>
+
 * **What it is:** A terminal client that fetches problems, caches test cases locally, and executes solutions in Python, C++, Java, or Go.
 * **Why it exists:** Browser tabs cause context switching. Terminal windows do not.
 * **Under the hood:** Python, Click, Custom Cache Layer, PyPI Distribution.
@@ -141,6 +156,10 @@ idea
 ---
 
 ### 05 // RUNTIME LOG :: 02:00 AM THREAD
+
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=13&duration=2800&pause=1100&color=8B949E&background=00000000&center=true&vCenter=true&width=650&height=30&lines=02%3A04+AM+%3A%3A+%22just+one+quick+bugfix+before+sleep%22;02%3A45+AM+%3A%3A+refactored+entire+system+into+generic+traits;03%3A12+AM+%3A%3A+reading+whitepapers+on+computational+geometry;04%3A15+AM+%3A%3A+git+commit+-m+%22it+works+do+not+touch%22" alt="Runtime Log Typing" />
+</div>
 
 ```
 23:45 :: "Just gonna fix this one minor helper function and head to bed."
