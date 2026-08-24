@@ -1,234 +1,261 @@
-<div align="center">
-  <img src="assets/hero_banner.jpg" width="100%" alt="Saksham Tale // Terminal Environment" />
-</div>
-
 ```
-================================================================================
-  SYSTEM INIT :: SAKSHAM TALE [v2.4.0-nightly]
-  LOCATION    :: 18.5204° N, 73.8567° E [PUNE, IN]
-  STATUS      :: OPERATIONAL (compiling thoughts into executable binaries)
-  UPTIME      :: 20+ years (occasional kernel panics at 3:00 AM)
-================================================================================
+┌────────────────────────────────────────────────────────────────────────────┐
+│ SAKSHAM TALE                                                               │
+│ backend · ai/ml · terminal tools · procedural 3d                           │
+│                                                                            │
+│ status   :: building things that probably didn't need to exist             │
+│ location :: 18.5204° N, 73.8567° E [pune, in]                              │
+│ shell    :: zsh (dark mode mandatory; light themes violate protocol)       │
+│ uptime   :: 20+ years (occasional kernel panic at 03:00)                   │
+└────────────────────────────────────────────────────────────────────────────┘
 ```
 
-<div align="center">
-  I build backend engines, terminal developer tools, AI/vector search experiments, and procedural 3D worlds.<br>
-  <b>Engineering doctrine:</b> If a manual workflow takes 30 seconds, I will happily spend 14 hours automating it in Python or C++.
-</div>
+> I build backend architectures, terminal developer tools, semantic AI experiments, and procedural 3D worlds.
+> **Engineering doctrine:** If a manual workflow takes 30 seconds, I will happily spend 14 hours automating it in Python or C++.
 
 <br>
 
 <details>
-<summary><b>[ CLICK TO INITIALIZE SHELL SESSION ]</b> <code>$ ./saksham --diagnostics</code></summary>
+<summary><b>[ CLICK TO RUN DIAGNOSTICS ]</b> <code>$ ./saksham --diagnostics --verbose</code></summary>
 
-```bash
-> Initializing environment...
-[OK] Backend subsystems ........... Node.js, FastAPI, Express, REST APIs
-[OK] Vector indices ............... Sentence Transformers, ChromaDB, Embeddings
-[OK] CLI engine ................... Textual, Click, Rich, Curses
-[OK] Procedural math .............. Voronoi, Delaunay, Poisson Disk, Lloyd Relaxation
-[OK] Coffee level ................. 87% (Dark Roast)
-[WARN] Sleep scheduler ............ Thread pool exhausted (SIGKILL ignored)
-[INFO] System ready for execution.
+```
+[init] scanning system memory...
+  + backend ............... node.js, fastapi, express, rest apis [OK]
+  + embeddings ............ sentence-transformers, chromadb, vectors [OK]
+  + terminal ui ........... textual, rich, curses, cli pipelines [OK]
+  + spatial math .......... voronoi, delaunay, poisson disk, lloyd [OK]
+  + coffee daemon ......... active (pid: 404, priority: high) [OK]
+  - sleep scheduler ....... thread pool exhausted (SIGKILL ignored) [WARN]
+[status] core runtime operational. proceed with caution.
 ```
 </details>
 
-<br><hr><br>
+<br>
 
-### SYSTEM THREADS // CURRENT STATUS
+---
 
-```
-[THREAD-01] Building developer TUIs because GUIs have too much latency
-[THREAD-02] Tweaking Voronoi cell relaxation on procedural terrain in HCTS
-[THREAD-03] Fine-tuning legal embedding retrieval thresholds in LegalEye
-[THREAD-04] Listening to synthwave / dark ambient while waiting for C++ builds
-[THREAD-05] Wondering why code that passed yesterday is throwing SIGSEGV today
-```
-
-<br><hr><br>
-
-### PROJECTS THAT ESCAPED THE IDE
+### 01 // CURRENT THREADS
 
 ```
-root@machine:~/projects# tree -L 1 --sort=chaos
-.
-├── cfmate ............. fast Codeforces CLI; zero-context-switching problem solver
-├── CaseCraft .......... terminal test-case manager & differential runner
-├── LegalEye ........... semantic legal search with local-first vector embeddings
-├── HCTS / Island ...... thermodynamics-driven procedural terrain generation engine
-├── EasyMetro .......... graph-based transit routing and optimal pathfinder for Pune
-├── POSTER ............. retro amber phosphor TUI client for REST APIs
-└── youtubeButForMe .... distraction-free custom YouTube client
+[THREAD-01] building terminal TUIs because web GUIs consume too much RAM
+[THREAD-02] fine-tuning vector similarity thresholds on legal documents
+[THREAD-03] tweaking Voronoi relaxation iterations on procedural terrain meshes
+[THREAD-04] listening to dark synthwave while waiting for C++ compiler output
+[THREAD-05] wondering why code that passed yesterday throws SIGSEGV today
 ```
 
 <br>
 
-#### 01 :: CFMate // Competitive Programming CLI
-> *Because opening a web browser to copy test cases felt like an unacceptable latency penalty.*
+---
 
-* **What it does:** Fetches Codeforces problems directly into the terminal, caches statements locally, parses sample inputs/outputs, and executes your Python/C++/Java/Go solutions against tests with zero context-switching.
-* **Stack:** Python, CLI Scaffolding, Cache Engine, PyPI Distribution
-* **Links:** [GitHub Repo](https://github.com/Saksham-cmd-tech/cf_tool) | [PyPI Package](https://pypi.org/project/cfmate/)
+### 02 // THINGS THAT ESCAPED THE IDE
 
-<div align="center">
-  <img src="assets/cfmate_banner.jpg" width="100%" alt="CFMate CLI" />
-</div>
-
-<br>
-
-#### 02 :: LegalEye // Semantic Legal Search Engine
-> *What if searching legal precedents didn't feel like sifting through 19th-century filing cabinets?*
-
-* **What it does:** Uses vector search and semantic document embeddings to query and retrieve legal contexts based on semantic intent rather than brittle keyword matching.
-* **Stack:** Python, Sentence Transformers, Vector Search, Semantic Analysis
-* **Links:** [GitHub Repo](https://github.com/Saksham-cmd-tech/LegelEye)
-
-<div align="center">
-  <img src="assets/legaleye_banner.jpg" width="100%" alt="LegalEye Architecture" />
-</div>
+```
+idea
+ └── "this shouldn't take more than 20 minutes"
+      └── prototype
+           └── 03:00 AM rabbit hole
+                └── "wait, this actually works"
+                     │
+                     ├── LegalEye ........ semantic legal document search
+                     ├── CFMate .......... competitive programming terminal CLI
+                     ├── CaseCraft ....... terminal test runner with visual diffs
+                     ├── HCTS ............ thermodynamics-driven procedural terrain
+                     ├── EasyMetro ....... transit graph shortest-path engine
+                     └── POSTER .......... retro amber phosphor TUI API client
+```
 
 <br>
 
-#### 03 :: HCTS // Procedural Island & Terrain Engine
-> *When standard Perlin noise isn't enough, simulate geology and thermodynamics.*
+---
 
-* **What it does:** High-performance procedural world generator leveraging Voronoi tessellations, Delaunay triangulation, Poisson disk sampling, and Lloyd relaxation to synthesize realistic landmasses, river basins, and elevation gradients.
-* **Stack:** Procedural Math, Spatial Partitioning, 3D Mesh Generation, Unity / C++
-* **Links:** [Research & Repository](https://github.com/Saksham-cmd-tech/terrain_research)
+### 03 // SELECTED WORK
 
-<div align="center">
-  <img src="assets/hcts_banner.jpg" width="100%" alt="HCTS Terrain Mesh" />
-</div>
-
-<br>
-
-#### 04 :: CaseCraft (CaseRunner) // Terminal Test Runner
-> *A LazyGit-inspired test-case manager for algorithm builders and problem solvers.*
-
-* **What it does:** Terminal UI for managing custom test cases, monitoring execution timeouts (TLE), memory footprint, and generating instant visual diffs between expected and actual outputs.
-* **Stack:** Python, TUI, Process Isolation, Subprocess Execution
-* **Links:** [GitHub Repo](https://github.com/Saksham-cmd-tech/caseRunner)
+**01 / [LEGALEYE](https://github.com/Saksham-cmd-tech/LegelEye)**  
+> *Searching legal documents using natural language instead of keyword roulette.*
+* **What it is:** A local-first semantic search engine for Indian legal precedent.
+* **Why it exists:** Because Boolean keyword queries fail when legal statutes use archaic phrasing.
+* **Under the hood:** Python, Sentence Transformers, Vector Search, ChromaDB.
+* **State:** Surprisingly effective.
 
 <br>
 
-#### 05 :: EasyMetro // Transit Graph Pathfinder
-> *Because computing Dijkstra on a graph was more reliable than looking at static timetable PDFs.*
-
-* **What it does:** Route visualization, interchange optimization, and shortest-path calculation across Pune's transit networks.
-* **Stack:** TypeScript, React, Graph Algorithms, Transit Data Parsing
-* **Links:** [GitHub Repo](https://github.com/Saksham-cmd-tech/easyMetro)
+**02 / [CFMATE](https://github.com/Saksham-cmd-tech/cf_tool)** · [PyPI Package](https://pypi.org/project/cfmate/)  
+> *A Codeforces CLI because opening a browser during a contest felt like an unacceptable latency penalty.*
+* **What it is:** A terminal client that fetches problems, caches test cases locally, and executes solutions in Python, C++, Java, or Go.
+* **Why it exists:** Browser tabs cause context switching. Terminal windows do not.
+* **Under the hood:** Python, Click, Custom Cache Layer, PyPI Distribution.
+* **State:** In daily competitive use. `pip install cfmate`
 
 <br>
 
-#### 06 :: POSTER // Amber Phosphor TUI API Client
+**03 / [HCTS (ISLAND ENGINE)](https://github.com/Saksham-cmd-tech/terrain_research)**  
+> *When standard Perlin noise isn't enough, simulate geology, hydrology, and thermodynamics.*
+* **What it is:** A research-oriented procedural world generation system.
+* **Why it exists:** Real landmasses have tectonic structure, river basins, and biome gradients—not random mathematical noise.
+* **Under the hood:** Voronoi Tessellation, Delaunay Triangulation, Poisson Disk Sampling, Lloyd Relaxation, C++ / Unity.
+* **State:** Computationally heavy, visually rewarding.
+
+<br>
+
+**04 / [CASECRAFT](https://github.com/Saksham-cmd-tech/caseRunner)**  
+> *A LazyGit-inspired test-case manager for algorithm builders.*
+* **What it is:** A terminal UI to manage custom test inputs, inspect memory footprints, monitor execution timeouts (TLE), and highlight diffs between actual and expected outputs.
+* **Why it exists:** Debugging algorithm edge-cases via stdout is unnecessarily painful.
+* **Under the hood:** Python, TUI Engine, Subprocess Isolation.
+* **State:** Active development.
+
+<br>
+
+**05 / [EASYMETRO](https://github.com/Saksham-cmd-tech/easyMetro)**  
+> *Because computing Dijkstra on a graph was more reliable than looking at static PDF timetables.*
+* **What it is:** Pune Metro transit router with route optimization, interchange penalties, and graph traversal.
+* **Why it exists:** Transit network navigation should be instant, offline-capable, and deterministic.
+* **Under the hood:** TypeScript, Graph Algorithms, Pathfinding, React.
+* **State:** Operational.
+
+<br>
+
+**06 / POSTER**  
 > *Because Postman takes 1.2 GB of RAM just to send a GET request.*
+* **What it is:** A keyboard-driven, amber phosphor CRT-aesthetic REST client built directly for the terminal.
+* **Why it exists:** API testing should feel like operating an underground mainframe, not loading an Electron container.
+* **Under the hood:** Python, Textual, HTTP Engine.
+* **State:** Fast and lightweight.
 
-* **What it does:** Full keyboard-driven API workbench in the terminal with retro amber CRT aesthetics. Built with Textual.
-* **Stack:** Python, Textual, HTTP Client Engine
+<br>
 
-<br><hr><br>
+---
 
-### EXPERIMENTS // THINGS THAT PROBABLY DIDN'T NEED TO EXIST
+### 04 // THINGS THAT PROBABLY DIDN'T NEED TO EXIST
 
-| Experiment | Why it was built | The realization |
+| Experiment | Rationale | Eventual Reality |
 | :--- | :--- | :--- |
 | **CFMate** | Refused to alt-tab to Chrome during contests | Wrote 1,000+ lines of CLI code to save 3 seconds per problem |
-| **POSTER** | Postman took 8 seconds to launch on my machine | Built a retro amber TUI with Textual instead of waiting |
-| **youtubeButForMe** | YouTube algorithmic feeds kept recommending 3-hour video essays | Built a custom frontend with Firebase and React just to watch tutorials in peace |
-| **EasyMetro Graph** | Wanted to know the exact transfer penalty at metro interchanges | Built a full TypeScript graph builder from raw transit stops |
-
-<br><hr><br>
-
-### RUNTIME LOG // 02:00 AM THREAD
-
-```
-02:04 AM :: "Just gonna clean up this one helper function before sleeping."
-02:21 AM :: Refactored the entire database layer into generic interfaces.
-02:45 AM :: 47 compiler errors. None of them make semantic sense.
-03:10 AM :: Realized I missed a closing bracket on line 12.
-03:11 AM :: Everything compiles. Zero warnings.
-03:12 AM :: "You know what this project really needs? A custom CLI tool."
-04:30 AM :: Reading whitepapers on Delaunay Triangulation and Voronoi Duals.
-```
-
-<br><hr><br>
-
-### TOOLBOX // LOADED MODULES
-
-```
-[ LANGUAGES ]       Python · C++ · TypeScript · JavaScript · SQL · Bash
-[ BACKEND ]         Node.js · Express · FastAPI · REST APIs · Subprocess Pipelines
-[ AI & DATA ]       Sentence Transformers · Hugging Face · Vector Embeddings · ChromaDB
-[ FRONTEND ]        React · Next.js · Vite · Tailwind CSS · State Machines
-[ DATABASES ]       PostgreSQL · MongoDB · Firebase Firestore · Realtime DB
-[ SYSTEMS & TOOLS ] Linux · Git · Docker · Textual (TUI) · GDB · Playwright
-[ CREATIVE TECH ]   Blender · Unity · Procedural Mesh Generation · 3D Modeling
-```
-
-<br><hr><br>
-
-### 3D & CREATIVE EXPERIMENTS
-
-When not writing backend APIs or debugging CLI subroutines, I disappear into Blender and procedural geometry code to build:
-* **Procedural terrain meshes** using mathematical relaxation algorithms and thermodynamic simulation.
-* **Low-poly visual dioramas** and atmospheric digital environments.
-* **3D product visualizers** and WebGL experiments (*e.g., Veloran*).
-
-<br><hr><br>
-
-### SYSTEM TELEMETRY // GITHUB METRICS
-
-```
-REPOSITORY INTEGRITY  [████████████████████] 100%
-DEBUGGING EFFICIENCY  [██████████████░░░░░░] 70%
-CAFFEINE SATURATION   [██████████████████░░] 92%
-HOURS SPENT ON CLI    [████████████████████] 9999+
-SLEEP QUOTA MET       [██░░░░░░░░░░░░░░░░░░] 12%
-```
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Saksham-cmd-tech&show_icons=true&theme=dark&hide_border=true&bg_color=000000&icon_color=ffffff&text_color=c9d1d9&title_color=ffffff" height="150" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Saksham-cmd-tech&theme=dark&hide_border=true&background=000000&ring=ffffff&fire=ffffff&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=c9d1d9&sideLabels=c9d1d9&dates=c9d1d9" height="150" alt="GitHub Streak" />
-</div>
+| **POSTER** | Postman took 8 seconds to launch | Built a full retro amber TUI client with Textual instead |
+| **youtubeButForMe** | YouTube algorithms kept recommending 4-hour bread documentaries | Built a private frontend with Firebase & React to watch talks in peace |
+| **EasyMetro Graph** | Needed to know the exact transfer penalty between lines | Built a full TypeScript graph builder from raw transit stops |
 
 <br>
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Saksham-cmd-tech&theme=react-dark&hide_border=true&bg_color=000000&color=ffffff&line=ffffff&point=ffffff" alt="Activity Graph" />
-</div>
+---
 
-<br><hr><br>
-
-### RANDOM KERNEL VARIABLES // FUN FACTS
-
-* **Rule of Automation:** If a manual workflow takes > 10 seconds, it deserves a dedicated CLI with keyboard shortcuts and caching.
-* **Preferred Color Scheme:** Monochrome, charcoal `#0D1117`, amber `#FFB000`, and pure dark mode. White themes are considered security vulnerabilities.
-* **The Graph Problem:** Spent three days writing a bus and metro graph traversal engine just to confirm which route was 2 minutes faster.
-* **Preferred Tooling:** Terminal over GUI, Neovim / Vim bindings over mouse clicks, Makefiles over multi-step menus.
-
-<details>
-<summary><b>[ TRANSMISSION FROM DEEP SPACE ]</b> <code>$ cat /dev/null/wisdom.txt</code></summary>
+### 05 // RUNTIME LOG :: 02:00 AM THREAD
 
 ```
-"There are only two hard things in Computer Science:
- cache invalidation, naming things, and off-by-one errors."
+23:45 :: "Just gonna fix this one minor helper function and head to bed."
+00:18 :: Refactored the entire data access layer into generic interfaces.
+01:04 :: 34 compiler errors. None of them make semantic sense.
+02:11 :: Discovered missing closing parenthesis on line 14.
+02:12 :: Everything compiles cleanly. 0 warnings.
+02:13 :: "You know what would make this 10x better? A custom CLI tool."
+03:40 :: Deep in an academic paper on Voronoi Duals and Delaunay Graphs.
+04:15 :: git commit -m "it works do not touch this" && git push
+```
 
-...and figuring out why the test passed locally but failed in CI.
+<br>
+
+---
+
+### 06 // THE RABBIT HOLES
+
+```
+casual question
+      │
+      ▼
+small 10-line script
+      │
+      ▼
+"what if this was faster?"
+      │
+      ▼
+benchmarks & profiling
+      │
+      ▼
+rewriting core algorithms
+      │
+      ▼
+why is this now a full repository on GitHub?
+```
+
+<br>
+
+---
+
+### 07 // THE TOOLBOX
+
+```
+[LANGUAGES]       Python · C++ · TypeScript · JavaScript · SQL · Bash
+[BACKEND]         Node.js · Express · FastAPI · REST APIs · Subprocess Pipelines
+[AI & VECTORS]    Sentence Transformers · Vector Embeddings · ChromaDB · NLP
+[FRONTEND]        React · Next.js · Vite · Tailwind CSS
+[DATABASES]       PostgreSQL · MongoDB · Firebase Firestore · Realtime DB
+[DEV & CLI]       Linux · Git · Docker · Textual (TUI) · GDB · Playwright
+[CREATIVE 3D]     Blender · Unity · Procedural Mesh Generation · Spatial Algorithms
+```
+
+<br>
+
+---
+
+### 08 // SIDE QUEST :: 3D & PROCEDURAL
+
+```
+When I step away from backend services and terminal tools, I disappear into
+Blender and computational geometry scripts:
+
+  + Procedural terrain synthesis using thermodynamic simulations & Lloyd relaxation
+  + Low-poly isometric scenes & digital dioramas
+  + 3D interactive web experiences (e.g., Veloran product visualizer)
+```
+
+<br>
+
+---
+
+### 09 // SYSTEM STATUS
+
+```
+BACKEND INTEGRITY      [████████████████████] 100%
+DEBUGGING TOLERANCE    [██████████████░░░░░░] 70%
+CAFFEINE CONCENTRATION [██████████████████░░] 91%
+HOURS IN TERMINAL      [████████████████████] 9999+
+SLEEP QUOTA MET        [██░░░░░░░░░░░░░░░░░░] 12%
+```
+
+<br>
+
+---
+
+### 10 // TRANSMISSION
+
+<details>
+<summary><b>[ CLICK TO DECRYPT WISDOM ]</b> <code>$ cat /dev/urandom | grep -m1 "truth"</code></summary>
+
+```
+"There are only two hard problems in computer science:
+ 1. Cache invalidation
+ 2. Naming things
+ 3. Off-by-one errors
+
+ ...and explaining why the code worked on localhost:3000."
 ```
 </details>
 
-<br><hr><br>
-
-### PING // CONNECT
-
-<div align="center">
-  <a href="https://github.com/Saksham-cmd-tech"><img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://saksham-tale.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://pypi.org/project/cfmate/"><img src="https://img.shields.io/badge/PyPI-000000?style=for-the-badge&logo=pypi&logoColor=white" alt="PyPI" /></a>
-</div>
-
 <br>
 
+---
+
+### 11 // PING & CONNECT
+
 ```
-EOF // Connection terminated by host.
+GitHub    :: https://github.com/Saksham-cmd-tech
+Portfolio :: https://saksham-tale.vercel.app/
+PyPI      :: https://pypi.org/project/cfmate/
+```
+
+```
+================================================================================
+  [EOF] Connection closed by remote host.
+================================================================================
 ```
