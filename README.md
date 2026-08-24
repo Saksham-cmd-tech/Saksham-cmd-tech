@@ -21,24 +21,9 @@
 
 <br>
 
-<details>
-<summary><b>[ CLICK TO RUN DIAGNOSTICS ]</b> <code>$ ./saksham --diagnostics --verbose</code></summary>
-
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=13&duration=2200&pause=900&color=8B949E&background=00000000&center=true&vCenter=true&width=580&height=30&lines=%3E+executing+diagnostic+routines...;%3E+checking+vector+index+integrity...;%3E+compiling+procedural+geometry...;%3E+all+threads+operational." alt="Diagnostic Status Animation" />
+  <img src="assets/diagnostics_boot.svg" width="100%" alt="System Diagnostics Boot Sequence" />
 </div>
-
-```
-[init] scanning system memory...
-  + backend ............... node.js, fastapi, express, rest apis [OK]
-  + embeddings ............ sentence-transformers, chromadb, vectors [OK]
-  + terminal ui ........... textual, rich, curses, cli pipelines [OK]
-  + spatial math .......... voronoi, delaunay, poisson disk, lloyd [OK]
-  + coffee daemon ......... active (pid: 404, priority: high) [OK]
-  - sleep scheduler ....... thread pool exhausted (SIGKILL ignored) [WARN]
-[status] core runtime operational. proceed with caution.
-```
-</details>
 
 <br>
 

@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="100%" height="240">
+  <style>
+    @keyframes line0 { 0%, 5% { opacity: 0; transform: translateY(3px); } 8%, 95% { opacity: 1; transform: translateY(0); } 100% { opacity: 0; } }
+    @keyframes line1 { 0%, 14% { opacity: 0; transform: translateY(3px); } 17%, 95% { opacity: 1; transform: translateY(0); } 100% { opacity: 0; } }
+    @keyframes line2 { 0%, 26% { opacity: 0; transform: translateY(3px); } 29%, 95% { opacity: 1; transform: translateY(0); } 100% { opacity: 0; } }
+    @keyframes line3 { 0%, 38% { opacity: 0; transform: translateY(3px); } 41%, 95% { opacity: 1; transform: translateY(0); } 100% { opacity: 0; } }
+    @keyframes line4 { 0%, 50% { opacity: 0; transform: translateY(3px); } 53%, 95% { opacity: 1; transform: translateY(0); } 100% { opacity: 0; } }
+    @keyframes line5 { 0%, 62% { opacity: 0; transform: translateY(3px); } 65%, 95% { opacity: 1; transform: translateY(0); } 100% { opacity: 0; } }
+    @keyframes line6 { 0%, 74% { opacity: 0; transform: translateY(3px); } 77%, 95% { opacity: 1; transform: translateY(0); } 100% { opacity: 0; } }
+    @keyframes line7 { 0%, 86% { opacity: 0; transform: translateY(3px); } 89%, 95% { opacity: 1; transform: translateY(0); } 100% { opacity: 0; } }
+    @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+
+    .term-bg { fill: #0d1117; stroke: #30363d; stroke-width: 1px; rx: 6px; }
+    .term-header { fill: #161b22; }
+    .term-border { stroke: #30363d; stroke-width: 1px; }
+    .term-dot { fill: #484f58; }
+    .term-title { font-family: 'SF Mono', 'Fira Code', 'Courier New', monospace; font-size: 11px; fill: #8b949e; }
+    
+    .term-text { font-family: 'SF Mono', 'Fira Code', 'Courier New', monospace; font-size: 12.5px; fill: #c9d1d9; }
+    .ok-tag { fill: #58a6ff; font-weight: bold; }
+    .warn-tag { fill: #d29922; font-weight: bold; }
+    .accent-tag { fill: #79c0ff; }
+    .dim-tag { fill: #6e7681; }
+    
+    .l0 { animation: line0 12s infinite; }
+    .l1 { animation: line1 12s infinite; }
+    .l2 { animation: line2 12s infinite; }
+    .l3 { animation: line3 12s infinite; }
+    .l4 { animation: line4 12s infinite; }
+    .l5 { animation: line5 12s infinite; }
+    .l6 { animation: line6 12s infinite; }
+    .l7 { animation: line7 12s infinite; }
+    .cursor { animation: blink 0.8s infinite; fill: #58a6ff; }
+  </style>
+
+  <rect width="100%" height="100%" class="term-bg" />
+  <path d="M 0,6 Q 0,0 6,0 L 794,0 Q 800,0 800,6 L 800,28 L 0,28 Z" class="term-header" />
+  <line x1="0" y1="28" x2="800" y2="28" class="term-border" />
+  
+  <circle cx="18" cy="14" r="4" class="term-dot" />
+  <circle cx="32" cy="14" r="4" class="term-dot" />
+  <circle cx="46" cy="14" r="4" class="term-dot" />
+  <text x="400" y="18" text-anchor="middle" class="term-title">saksham@arch-box: ~ (system diagnostics)</text>
+
+  <g transform="translate(20, 52)">
+    <!-- Line 0 -->
+    <g class="l0">
+      <text x="0" y="0" class="term-text"><tspan class="accent-tag">[init]</tspan> scanning system memory...</text>
+    </g>
+
+    <!-- Line 1 -->
+    <g class="l1">
+      <text x="0" y="20" class="term-text">  <tspan class="accent-tag">+</tspan> backend <tspan class="dim-tag">...............</tspan> node.js, fastapi, express, rest apis <tspan class="ok-tag">[OK]</tspan></text>
+    </g>
+
+    <!-- Line 2 -->
+    <g class="l2">
+      <text x="0" y="40" class="term-text">  <tspan class="accent-tag">+</tspan> embeddings <tspan class="dim-tag">............</tspan> sentence-transformers, chromadb, vectors <tspan class="ok-tag">[OK]</tspan></text>
+    </g>
+
+    <!-- Line 3 -->
+    <g class="l3">
+      <text x="0" y="60" class="term-text">  <tspan class="accent-tag">+</tspan> terminal ui <tspan class="dim-tag">...........</tspan> textual, rich, curses, cli pipelines <tspan class="ok-tag">[OK]</tspan></text>
+    </g>
+
+    <!-- Line 4 -->
+    <g class="l4">
+      <text x="0" y="80" class="term-text">  <tspan class="accent-tag">+</tspan> spatial math <tspan class="dim-tag">..........</tspan> voronoi, delaunay, poisson disk, lloyd <tspan class="ok-tag">[OK]</tspan></text>
+    </g>
+
+    <!-- Line 5 -->
+    <g class="l5">
+      <text x="0" y="100" class="term-text">  <tspan class="accent-tag">+</tspan> coffee daemon <tspan class="dim-tag">.........</tspan> active (pid: 404, priority: high) <tspan class="ok-tag">[OK]</tspan></text>
+    </g>
+
+    <!-- Line 6 -->
+    <g class="l6">
+      <text x="0" y="120" class="term-text">  <tspan class="warn-tag">-</tspan> sleep scheduler <tspan class="dim-tag">.......</tspan> thread pool exhausted (SIGKILL ignored) <tspan class="warn-tag">[WARN]</tspan></text>
+    </g>
+
+    <!-- Line 7 -->
+    <g class="l7">
+      <text x="0" y="145" class="term-text"><tspan class="accent-tag">[status]</tspan> core runtime operational. proceed with caution. <tspan class="cursor">_</tspan></text>
+    </g>
+  </g>
+</svg>
